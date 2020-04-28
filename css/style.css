@@ -1,0 +1,54 @@
+
+
+
+.container {
+            width: 95%;
+            text-align: center;
+            }
+
+.marker{
+    background: linear-gradient(transparent 70%, #fff001 0%);
+}
+
+
+ /*大デバイス large（デスクトップ, 1200px 未満）　*/
+@media (min-width: 992px) {
+ h1{
+   font-size: 2.5rem;
+ }
+ h2{
+   font-size: 2.0rem;
+ }
+
+}
+
+ /*中デバイス medium（タブレット, 992px 未満）*/
+@media (max-width: 991.98px) {
+ h1{
+   font-size: 2.0rem;
+ }
+ h2{
+   font-size: 1.5rem;
+ }
+}
+
+/*小デバイス small（横向きモバイル, 768px 未満）*/
+@media (max-width: 767.98px) {
+ h1{
+   font-size: 1.5rem;
+ }
+ h2{
+   font-size: 1.2rem;
+ }
+}
+
+/* @include media-breakpoint-up(sm) {*/
+ /*極小デバイス extra small（縦向きモバイル, 576px 未満）*/
+@media (max-width: 575.98px) {
+ h1{
+   font-size: 1.2rem;
+ }
+ h2{
+   font-size: 1.0rem;
+ }
+}
