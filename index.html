@@ -1,665 +1,563 @@
 <!doctype html>
-<html lang="ja">
-  <head>
-    
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <html lang="ja">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+      <title>Hello, world!</title>
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <script src="https://kit.fontawesome.com/0745ca2e4d.js" crossorigin="anonymous"></script>
+    </head>
 
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Hello, world!</title>
-  　<link rel="stylesheet" type="text/css" href="css/style.css">
 
-  </head>
   <body>
+    <!-- ナビバーの作成 -->
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">Inspiring.Inc.</a>
+          
+          <button class="navbar-toggler close" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">提供サービス</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link" href="#">特徴（選ばれる理由）</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link" href="#">代表紹介</a>
+            </li>  
+            <li class="nav-item">
+              <a class="nav-link" href="#">基本情報</a>
+            </li>  
+          </ul>
 
-  <header>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Inspiring.Inc.</a>
-    <button class="navbar-toggler close" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-      
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-  
-  
-        <li class="nav-item">
-          <a class="nav-link" href="#">提供サービス</a>
-        </li>
-  
-  
-        <li class="nav-item">
-          <a class="nav-link" href="#">特徴（選ばれる理由）</a>
-        </li>
-  
-        <li class="nav-item">
-          <a class="nav-link" href="#">代表紹介</a>
-        </li>
-  
-        <li class="nav-item">
-          <a class="nav-link" href="#">基本情報</a>
-        </li>
-  
-      </ul>
-
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#">090-3732-6083</a>
-        </li>
-      </ul>
-  
-  
-  
-      <button type="button" class="btn btn-light btn-sm">メールで問い合わせる</button>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href=tel:090-0000-0000>090-0000-0000</a>
+            </li>
+          </ul>
+            <a type="button" href=#mail class="mb-1 btn btn-light btn-sm">メールで問い合わせる</a>
         </div>
       </nav>
-  </header>
+    </header>
 
-<!--トップタイトル-->
-  <main class="container">
-　　<section id=first class="">
-　　  <div>
-            <h2>全国の<strong>中小企業</strong>を元気にするIT会社</h2>
-            <h1><span class="marker">IT技術と発想力で集客と<strong>業務最適化</strong>が人気</span></h1>
+  <!--ファーストビューのタイトル-->
+<main class="container">
+    <section id=first class="p-3">
+      <div>
+        <h2>全国の<strong>中小企業</strong>を元気にするIT会社</h2>
+        <h1><span class="marker">IT技術と発想力で集客と<strong>業務最適化</strong>が人気</span></h1>
       </div>
-      
 
       <div class="flex-row justify-content-center">
-          <soan class="col-2 mx-1 my-3 p-2 badge badge-dark">技術力</soan>
-          <soan class="col-2 mx-1 my-3 p-2 badge badge-dark">発想力</soan>
-          <soan class="col-2 mx-1 my-3 p-2 badge badge-dark">感動力</soan>
+        <soan class="col-2 mx-1 my-3 p-2 badge badge-dark">技術力</soan>
+        <soan class="col-2 mx-1 my-3 p-2 badge badge-dark">発想力</soan>
+        <soan class="col-2 mx-1 my-3 p-2 badge badge-dark">感動力</soan>
       </div>
       
     </section>
-      
+    
   
-  
-  
-<!--企業情報-->
-  <section id=infomation class="shadow p-2  container">
-    <div class="row clearfix media">
-        <div class="mx-auto  p-1 media-sm-left col-sm-4">
-          <img class="img-fluid" src="http://placehold.jp/320x240.png" alt="テスト画像">
+    <!--ファーストビューの企業情報-->
+    <section id=top-infomation class="shadow container">
+      <div class="row">
+        <div class="p-3 col-sm-4">
+            <img class="img-fluid" src="http://placehold.jp/320x240.png" alt="テスト画像">
         </div>
-        
-      <div class="col-sm-8 text-left mt-2">
+          
+        <div class="p-3 col-sm-8 text-left">
             <h5 class="">Inspiring.Inc.</h5>
-            <h6 class="">評価：4.3（クチコミ13件）</h6>
-              
+            <h6 class="">評価：4.3（クチコミ13件）</h6>            
             <p> 
-            <span>icon</span>
-            <a href="#map">神奈川県横浜市南区1-1-1 7F</a>
-            <br>
-
-            <span>icon</span>
-            関内駅より徒歩10分
-            <br>
-
-            <span>icon</span>
-            <a href="tel:090-0000-0000">090-0000-0000</a>
-            <br>
-
-            <span>icon</span>
-            土曜日、日曜日
-            <br>
-
-            <span>icon</span>
-            9:30 - 18:30
-            <br>
+              <i class="fas fa-map-marker-alt"></i><a href="#map"> 神奈川県横浜市南区1-1-1 7F</a><br>
+              <i class="far fa-map"> 関内駅より徒歩10分</i><br>
+              <i class="fas fa-phone-alt"></i><a href="tel:090-0000-0000"> 090-0000-0000</a><br>
+              <i class="far fa-calendar-times"> 土曜日、日曜日</i><br>
+              <i class="far fa-clock"> 9:30 - 18:30</i><br>
             </p>
-            
           <div class="block">
-            <p>Inspiringは、ITとクリエイティブ双方の技術を駆使する立場として、クライアント様の事業戦略に深く入り込み、企業の成長と利益を追求していきます。</p>
-                  
-              <h5><span class="reason marker">特長（選ばれる理由）</span></h5>
-                
+            <p>Inspiringは、ITとクリエイティブ双方の技術を駆使する立場として、クライアント様の事業戦略に深く入り込み、企業の成長と利益を追求していきます。</p>                
+              <h5><span class="reason marker">特長（選ばれる理由）</span></h5>              
             <div class="">
-              <span>check-icon：選ばれる理由1について記載する</span><br>
-              <span>check-icon：選ばれる理由2について記載する</span><br>
-              <span>check-icon：選ばれる理由3について記載する</span><br>
-              <span>check-icon：選ばれる理由4について記載する</span><br>
-              <span>check-icon：選ばれる理由5について記載する</span><br>
-            </div>
-            
+              <i class="far fa-check-square"> 選ばれる理由1について記載する</i><br>
+              <i class="far fa-check-square"> 選ばれる理由2について記載する</i><br>
+              <i class="far fa-check-square"> 選ばれる理由3について記載する</i><br>
+              <i class="far fa-check-square"> 選ばれる理由4について記載する</i><br>
+              <i class="far fa-check-square"> 選ばれる理由5について記載する</i><br>
+            </div> 
           </div>
         </div>
-    </div>
-  </section>  
+      </div>
+    </section>  
 
 
+    <!-- お問い合わせ情報 -->
+    <section id=contact class="container">
+      <div class="low my-5">
+        <div>
+          <h1>お問い合わせ</h1>
+            <div class="text-danger">        
+                <h1 class="d-block d-sm-none"><i class="fas fa-phone-alt"></i><a class="text-danger col-sm-disabled" href="tel:090-0000-0000"> 090-0000-0000</a></h1>
+                <h1 class="col-sm-disabled d-none d-sm-block"><i class="fas fa-phone-alt"> 090-0000-0000</i></h1>
+            </div>
+            <i class="far fa-clock"> 受付時間 9:30 - 18:30</i>
+        </div>    
+          <a href="#line" type="button" class="col col-sm-4 btn btn-success m-1 "><i class="fab fa-line"></i> LINEで問い合わせる</a>        
+          <a href="#mail" type="button" class="col col-sm-4 btn btn-primary m-1 "><i class="far fa-envelope"></i> メールで問い合わせる</a>
+      </div>
+    </section>  
 
-  <section id=contact class="mt-10 p-2 container">
-    <div class="low m-5 ">
+  
+    
+    <!-- もくじ情報 -->
+    <section id=contents class="container">
+      <div class="row col-sm-4 p-2  shadow mx-auto">    
+        <h2>このページの主な内容</h2>
+        <div class="list-group-flush p-2 text-left">
+          <a class="list-group-item text-secondary btn text-left" href="#menu"><i class="far fa-list-alt"></i> メニュー</a>
+          <a class="list-group-item text-secondary btn text-left" href="#reason"><i class="fas fa-medal"></i> 特徴（選ばれる理由）</a>
+          <a class="list-group-item text-secondary btn text-left" href="#review"><i class="far fa-comment-dots"></i> クチコミ</a>
+          <a class="list-group-item text-secondary btn text-left" href="#staff"><i class="far fa-user"></i> スタッフ紹介</a>
+          <a class="list-group-item text-secondary btn text-left" href="#infomation"><i class="far fa-building"></i> 基本情報</a>
+          <a class="list-group-item text-secondary btn text-left" href="#faq"><i class="far fa-question-circle"></i> よくある質問</a>
+          <a class="list-group-item text-secondary btn text-left" href="#mail"><i class="far fa-envelope"></i> お問い合わせ</a>
+        </div>
+      </div>
+    </section>    
+
+
+  <!-- メニュー、サービスの内容 -->
+    <section id=menu class="container mt-5">
       <div>
-        <h1>お問い合わせ</h1>
-        <div class="text-danger">        
-            <h1 class="d-block d-sm-none"><span>icon_tel</span>
-            <a class="text-danger col-sm-disabled" href="tel:090-0000-0000">090-0000-0000</a>
-            </h1>
-            <h1 class="col-sm-disabled d-none d-sm-block"><span>icon_tel：090-0000-0000</span>
-            </h1>
-        </div>
-          <p>
-            <span>icon_time</span>受付時間 9:30 - 18:30
-          </p>
-      </div>    
-        <a href="#line" type="button" class="col col-sm-4 btn btn-success m-1 ">LINEで問い合わせる</a>        
-        <a href="#mail" type="button" class="col col-sm-4 btn btn-primary m-1 ">メールで問い合わせる</a>
-    </div>
-  </section>  
-  
-  
-  
-  <section id=coupon class="card  border-danger ">
-      <h2 class="card-header bg-danger text-white font-weight-bold">カードのヘッダーここにクーポンタイトル</h2>
-      <h2 class="mt-3 text-danger font-weight-bold">1日3名様限定：短期間で確実に痩せたい方</h2>
-
-    <div class="row p-3">
-
-      <div class="col-sm-4 mx-auto p-2">
-        <img class="card-img" src="http://placehold.jp/320x240.png" alt="テスト画像">
+        <h1><span class="marker">メニュー</span></h1>
       </div>
-          
-      <div class="card-body col-sm-8 text-left ">
-        <h2 class="card-titl"><span class="marker text-danger">ここにクーポンのタイトルが入ります</span></h2>
-        <p class="card-text">ここにクーポンのテキスト内容が入ります。ここにクーポンのテキスト内容が入ります。ここにクーポンのテキスト内容が入ります。ここにクーポンのテキスト内容が入ります。ここにクーポンのテキスト内容が入ります。</p>
-      </div>
-
-    </div>    
-    <!--<a href="#mail" type="button" class=" p-2  btn btn-primary m-3 ">クーポンを申し込む</a>          -->
-
-  </section>
-  
-  <section id=contents class="row mt-4">
-    <div class="col-sm-4 p-2 m-3 shadow  mx-auto">    
-      <h2>このページの主な内容</h2>
-      <div class="list-group-flush p-3 text-left " >
-        <a class="list-group-item text-secondary btn text-left" href="#menu">メニュー</a>
-        <a class="list-group-item text-secondary btn text-left" href="#reason">特徴（選ばれる理由）</a>
-        <a class="list-group-item text-secondary btn text-left" href="#reviwe">クチコミ</a>
-        <a class="list-group-item text-secondary btn text-left" href="#staff">スタッフ紹介</a>
-        <a class="list-group-item text-secondary btn text-left" href="#infomation">基本情報</a>
-        <a class="list-group-item text-secondary btn text-left" href="#faq">よくある質問</a>
-        <a class="list-group-item text-secondary btn text-left" href="#mail">お問い合わせ</a>
-      </div>
-    </div>
-  </section>    
-
-
-  
-  <section id=menu class="">
-　　  <div>
-            <h1><span class="marker">メニュー</span></h1>
-      </div>
-      
-
       <div class="flex-row justify-content-center">
-          <soan class="col-2 mx-1 my-3 p-2 badge badge-dark">集客</soan>
-          <soan class="col-2 mx-1 my-3 p-2 badge badge-dark">開発</soan>
-          <soan class="col-2 mx-1 my-3 p-2 badge badge-dark">効率化</soan>
+        <soan class="col-2 mx-2 my-3 p-2 badge badge-dark">集客</soan>
+        <soan class="col-2 mx-2 my-3 p-2 badge badge-dark">開発</soan>
+        <soan class="col-2 mx-2 my-3 p-2 badge badge-dark">効率化</soan>
       </div>
       
 
-   <div class="container">
-    <div class="shadow p-2 m-3 row clearfix media ">
-        <div class="mx-auto  p-1 media-sm-left col-sm-4">
+      <div class="shadow p-1 my-2 row ">
+        <div class="mx-auto p-1 col-sm-4">
           <img class="img-fluid" src="http://placehold.jp/320x240.png" alt="テスト画像">
-        </div>
-        
+        </div> 
         <div class="col-sm-8 text-left mt-2">
-            <h5 class="text-danger">Google広告運用代行</h5>
-            <h6 class="text-right">10,000円〜(税別)</h6>
-            <p>ここがGoogle広告の運用代行について記載するところです、ここがGoogle広告の運用代行について記載するところです</p>
+          <h5 class="text-danger">Google広告運用代行</h5>
+          <h6 class="text-right">10,000円〜(税別)</h6>
+          <p>ここがGoogle広告の運用代行について記載するところです、ここがGoogle広告の運用代行について記載するところです</p>
         </div>
       </div>
    
-
-
-    <div class="shadow p-2 m-3 row clearfix media ">
-        <div class="mx-auto  p-1 media-sm-left col-sm-4">
+      <div class="shadow p-1 my-2 row ">
+        <div class="mx-auto p-1 col-sm-4">
           <img class="img-fluid" src="http://placehold.jp/320x240.png" alt="テスト画像">
-        </div>
-        
+        </div> 
         <div class="col-sm-8 text-left mt-2">
-            <h5 class="text-danger">Facebook広告運用代行</h5>
-            <h6 class="text-right">10,000円〜(税別)</h6>
-            <p>ここがFacebook広告の運用代行について記載するところです、ここがFacebook広告の運用代行について記載するところです</p>
+          <h5 class="text-danger">Facebook広告運用代行</h5>
+          <h6 class="text-right">10,000円〜(税別)</h6>
+          <p>ここがFacebook広告の運用代行について記載するところです、ここがFacebook広告の運用代行について記載するところです</p>
         </div>
       </div>
 
-
-    <div class="shadow p-2  m-3 row clearfix media ">
-        <div class="mx-auto  p-1 media-sm-left col-sm-4">
+      <div class="shadow p-1 my-2 row ">
+        <div class="mx-auto p-1 col-sm-4">
           <img class="img-fluid" src="http://placehold.jp/320x240.png" alt="テスト画像">
-        </div>
-        
+        </div> 
         <div class="col-sm-8 text-left mt-2">
-            <h5 class="text-danger">システム開発</h5>
-            <h6 class="text-right">100,000円〜(税別)</h6>
-            <p>楽楽販売を活用した、システムを開発します。楽楽販売を活用した、システムを開発します。</p>
+          <h5 class="text-danger">システム開発</h5>
+          <h6 class="text-right">100,000円〜(税別)</h6>
+          <p>楽楽販売を活用した、システムを開発します。楽楽販売を活用した、システムを開発します。</p>
         </div>
       </div>
-  </div>
+    </section>
+
+  
+    <!-- お問い合わせ情報 -->
+    <section id=contact class="container">
+      <div class="low my-5">
+        <div>
+          <h1>お問い合わせ</h1>
+            <div class="text-danger">        
+                <h1 class="d-block d-sm-none"><i class="fas fa-phone-alt"></i><a class="text-danger col-sm-disabled" href="tel:090-0000-0000"> 090-0000-0000</a></h1>
+                <h1 class="col-sm-disabled d-none d-sm-block"><i class="fas fa-phone-alt"> 090-0000-0000</i></h1>
+            </div>
+            <i class="far fa-clock"> 受付時間 9:30 - 18:30</i>
+        </div>    
+          <a href="#line" type="button" class="col col-sm-4 btn btn-success m-1 "><i class="fab fa-line"></i> LINEで問い合わせる</a>        
+          <a href="#mail" type="button" class="col col-sm-4 btn btn-primary m-1 "><i class="far fa-envelope"></i> メールで問い合わせる</a>
+      </div>
+    </section>  
+
+
+    
+  <!-- 特徴（選ばれる理由） -->
+  <section id=reason class="container mt-5">
+    <div>
+      <h1><span class="marker">メニュー</span></h1>
+    </div>
+    <div class="flex-row justify-content-center">
+      <soan class="col-2 mx-2 my-3 p-2 badge badge-dark">親切</soan>
+      <soan class="col-2 mx-2 my-3 p-2 badge badge-dark">丁寧</soan>
+      <soan class="col-2 mx-2 my-3 p-2 badge badge-dark">保障付</soan>
+    </div>
+    
+
+    <div class="shadow p-1 my-2 row ">
+      <div class="mx-auto p-1 col-sm-4">
+        <img class="img-fluid" src="http://placehold.jp/320x240.png" alt="テスト画像">
+      </div> 
+      <div class="col-sm-8 text-left mt-2">
+        <h5 class="text-danger">分析・要件定義から、開発・運用まで実施</h5>
+        <!-- <h6 class="text-right">10,000円〜(税別)</h6> -->
+        <p>あらゆる規模のシステム開発を経験豊富なエンジニアにより自社開発しています。あらゆる規模のシステム開発を経験豊富なエンジニアが、お客様のご要望に最も適切なシステム構築を分析・要件定義から、開発・運用まで一貫して自社開発のもとご提供します。他社では難しかった案件もご相談ください。</p>
+      </div>
+    </div>
+ 
+    <div class="shadow p-1 my-2 row ">
+      <div class="mx-auto p-1 col-sm-4">
+        <img class="img-fluid" src="http://placehold.jp/320x240.png" alt="テスト画像">
+      </div> 
+      <div class="col-sm-8 text-left mt-2">
+        <h5 class="text-danger">業務系、WEB系、オープン系の開発や独自のアドオン開発</h5>
+        <!-- <h6 class="text-right">10,000円〜(税別)</h6> -->
+        <p>上流から下流工程まですべてを知るスペシャリストが、業務系、Web系、オープン系などお客様のニーズに即した様々なアプリケーション開発を行っています。また既存システムでは実現不可能な機能を補うアドオンの開発も行っています。</p>
+      </div>
+    </div>
+
+    <div class="shadow p-1 my-2 row ">
+      <div class="mx-auto p-1 col-sm-4">
+        <img class="img-fluid" src="http://placehold.jp/320x240.png" alt="テスト画像">
+      </div> 
+      <div class="col-sm-8 text-left mt-2">
+        <h5 class="text-danger">経営戦略に基づいたシステム化構想のご提案</h5>
+        <!-- <h6 class="text-right">100,000円〜(税別)</h6> -->
+        <p>自社にITに詳しい人材がいないことでお悩みの会社は多いと思います。インスパイアリングが貴社のIT部門の役割を担います。社内システム環境構築、ヘルプデスクサービスにはじまり、貴社の経営戦略に基づいたシステム化構想のご提案をいたします。</p>
+      </div>
+    </div>
   </section>
 
-  
-  <section id=contact class="mt-10 p-2 container">
-    <div class="low m-5 ">
-      <div>
-        <h1>お問い合わせ</h1>
-        <div class="text-danger">        
-            <h1 class="d-block d-sm-none"><span>icon_tel</span>
-            <a class="text-danger col-sm-disabled" href="tel:090-0000-0000">090-0000-0000</a>
-            </h1>
-            <h1 class="col-sm-disabled d-none d-sm-block"><span>icon_tel：090-0000-0000</span>
-            </h1>
-        </div>
-          <p>
-            <span>icon_time</span>受付時間 9:30 - 18:30
-          </p>
-      </div>    
-        <a href="#line" type="button" class="col col-sm-4 btn btn-success m-1 ">LINEで問い合わせる</a>        
-        <a href="#mail" type="button" class="col col-sm-4 btn btn-primary m-1 ">メールで問い合わせる</a>
+
+
+
+
+  <section id=review class="container">
+    <div class="my-4">
+      <h1><span class="marker">クチコミ</span></h1>
+      <h2>
+        <i class="fas fa-star text-warning"></i>  
+        <i class="fas fa-star text-warning"></i>  
+        <i class="fas fa-star text-warning"></i>  
+        <i class="fas fa-star text-warning"></i>         
+         評価4.1（17件）</h2>
     </div>
-  </section>  
-
-  
-
-  <section id=reason class="">
-　　  <div>
-            <h1><span class="marker">特徴（選ばれる理由）</span></h1>
-      </div>
       
 
-      <div class="flex-row justify-content-center">
-          <soan class="col-2 mx-1 my-3 p-2 badge badge-dark">親切</soan>
-          <soan class="col-2 mx-1 my-3 p-2 badge badge-dark">丁寧</soan>
-          <soan class="col-2 mx-1 my-3 p-2 badge badge-dark">保証付</soan>
-      </div>
-      
-
-
-
-
-   <div class="container">
-    <div class="shadow p-2 m-3 row clearfix media ">
-        <div class="mx-auto  p-1 media-sm-left col-sm-4">
-          <img class="img-fluid" src="http://placehold.jp/320x240.png" alt="テスト画像">
-        </div>
-        
-        <div class="col-sm-8 text-left mt-2">
-            <h5 class="text-danger">分析・要件定義から、開発・運用まで実施</h5>
-            <!--<h6 class="text-right">10,000円〜(税別)</h6>-->
-            <p>あらゆる規模のシステム開発を経験豊富なエンジニアにより自社開発しています。あらゆる規模のシステム開発を経験豊富なエンジニアが、お客様のご要望に最も適切なシステム構築を分析・要件定義から、開発・運用まで一貫して自社開発のもとご提供します。他社では難しかった案件もご相談ください。</p>
-        </div>
-      </div>
-   
-
-
-    <div class="shadow p-2 m-3 row clearfix media ">
-        <div class="mx-auto  p-1 media-sm-left col-sm-4">
-          <img class="img-fluid" src="http://placehold.jp/320x240.png" alt="テスト画像">
-        </div>
-        
-        <div class="col-sm-8 text-left mt-2">
-            <h5 class="text-danger">業務系、WEB系、オープン系の開発や独自のアドオン開発</h5>
-            <!--<h6 class="text-right">10,000円〜(税別)</h6>-->
-            <p>上流から下流工程まですべてを知るスペシャリストが、業務系、Web系、オープン系などお客様のニーズに即した様々なアプリケーション開発を行っています。また既存システムでは実現不可能な機能を補うアドオンの開発も行っています。</p>
-        </div>
-      </div>
-
-
-    <div class="shadow p-2  m-3 row clearfix media ">
-        <div class="mx-auto  p-1 media-sm-left col-sm-4">
-          <img class="img-fluid" src="http://placehold.jp/320x240.png" alt="テスト画像">
-        </div>
-        
-        <div class="col-sm-8 text-left mt-2">
-            <h5 class="text-danger">経営戦略に基づいたシステム化構想のご提案</h5>
-            <!--<h6 class="text-right">100,000円〜(税別)</h6>-->
-            <p>自社にITに詳しい人材がいないことでお悩みの会社は多いと思います。インスパイアリングが貴社のIT部門の役割を担います。社内システム環境構築、ヘルプデスクサービスにはじまり、貴社の経営戦略に基づいたシステム化構想のご提案をいたします。</p>
-        </div>
-      </div>
-  </div>
-</section>
-
-
-
-
-<section id=review class="container">
-　　  <div class="mt-4">
-            <h1><span class="marker">クチコミ</span></h1>
-            <h2><span>★★★★</span>評価4.1（17件）</h2>
-      </div>
-      
-
-  <div class="">
-    <div class="shadow p-2 m-3 row clearfix media ">
-
+    <div class="shadow p-1 row">
         <div class="col-sm-12 text-left mt-2 border-bottom">
-            <h6>iconかず</h6>
-            <h6>★★★★評価4</h6>
+            <h6><i class="far fa-user"></i> かず</h6>
+            <h6>
+              <i class="fas fa-star text-warning"></i>  
+              <i class="fas fa-star text-warning"></i>  
+              <i class="fas fa-star text-warning"></i>  
+              <i class="fas fa-star text-warning"></i>  
+              評価4</h6>
             <!--<h6 class="text-right">10,000円〜(税別)</h6>-->
             <p>前から気になっていて行ってみました！店内は狭いですが落ち着く雰囲気でした。ランチメニューは4つありどれも1000円。私は蒸し鶏ランチをオーダーしました。</p>
         </div>
 
         <div class="col-sm-12 text-left mt-2 border-bottom">
-            <h6>iconとく</h6>
-            <h6>★★★★評価4</h6>
+            <h6><i class="far fa-user"></i> とく</h6>
+            <h6>
+              <i class="fas fa-star text-warning"></i>  
+              <i class="fas fa-star text-warning"></i>  
+              <i class="fas fa-star text-warning"></i>  
+              <i class="fas fa-star text-warning"></i>  
+              
+              
+              評価4</h6>
             <!--<h6 class="text-right">10,000円〜(税別)</h6>-->
             <p>前から気になっていて行ってみました！店内は狭いですが落ち着く雰囲気でした。ランチメニューは4つありどれも1000円。私は蒸し鶏ランチをオーダーしました。</p>
         </div>
 
         <div class="col-sm-12 text-left mt-2">
-            <h6>iconみつ</h6>
-            <h6>★★★★評価4</h6>
+            <h6><i class="far fa-user"></i> みつ</h6>
+            <h6>
+              <i class="fas fa-star text-warning"></i>  
+              <i class="fas fa-star text-warning"></i>  
+              <i class="fas fa-star text-warning"></i>  
+              <i class="fas fa-star text-warning"></i>                
+              評価4</h6>
             <!--<h6 class="text-right">10,000円〜(税別)</h6>-->
             <p>前から気になっていて行ってみました！店内は狭いですが落ち着く雰囲気でした。ランチメニューは4つありどれも1000円。私は蒸し鶏ランチをオーダーしました。</p>
         </div>
       
-      <div class="m-2 col text-right">
-        <a href="" class="">クチコミの一覧を見る</a>
-      </div>
-      
+        <div class="m-2 col text-right">
+          <a href="">クチコミの一覧を見る</a>
+        </div>      
+    </div>  
+    <div class="col mt-2">
+      <a href="#mail" type="button" class=" mx-auto  col-sm-11 btn btn-outline-primary m-2">クチコミを投稿する</a>        
     </div>
-    
-    <div class="col">
-    <a href="#mail" type="button" class=" mx-auto  col-sm-11 btn btn-outline-primary m-2">クチコミを投稿する</a>        
+  </section>
+
+
+  <!--代表紹介-->  
+  <section id=staff class="container">
+    <div class="mt-4">
+      <h1><span class="marker">代表紹介</span></h1>
     </div>
-  </div>
-</section>
-  
-
-
-<!--代表紹介-->  
-<section id=staff class="container">
-　　  <div class="mt-4">
-            <h1><span class="marker">代表紹介</span></h1>
-      </div>
-
-
-
-  <div id=infomation class="shadow p-2">
-    <div class="row clearfix media">
-        <div class="mx-auto  p-3 media-sm-left col-sm-4">
+    <div class="row shadow p-2">
+        <div class="p-1 col-sm-4">
           <img class="img-fluid" src="http://placehold.jp/320x240.png" alt="テスト画像">
         </div>
-        
+        <div class="col-sm-8 text-left mt-2">
+          <i class="far fa-user"></i>
+          <div class="">山田 太郎</div>
+          <br>
+          <i class="far fa-comment-dots"></i>
+          <p>代表のメッセージを実施する。オーガニックの野菜や調味料を厳選し、お手頃価格のメニューを開発・提供しています。当店のLINEに友だち登録いただくと、人気のオーガニック・スムージーも１杯無料となるキャンペーンも開催しているので気軽にご来店ください。</p>
+          <i class="far fa-list-alt"></i>
+          <p>代表の経歴を掲載する。代表の経歴を掲載する。代表の経歴を掲載する。代表の経歴を掲載する。代表の経歴を掲載する。代表の経歴を掲載する。</p>
+          <i class="fas fa-medal"></i>
+          <p>代表の経歴を資格する。代表の経歴を資格する。代表の経歴を資格する。代表の経歴を資格する。代表の経歴を資格する。代表の経歴を資格する。</p>
+        </div>
+    </div>
+  </section>  
+
+
+
+
+
+    <!-- お問い合わせ情報 -->
+    <section id=contact class="container">
+      <div class="low my-5">
+        <div>
+          <h1>お問い合わせ</h1>
+            <div class="text-danger">        
+                <h1 class="d-block d-sm-none"><i class="fas fa-phone-alt"></i><a class="text-danger col-sm-disabled" href="tel:090-0000-0000"> 090-0000-0000</a></h1>
+                <h1 class="col-sm-disabled d-none d-sm-block"><i class="fas fa-phone-alt"> 090-0000-0000</i></h1>
+            </div>
+            <i class="far fa-clock"> 受付時間 9:30 - 18:30</i>
+        </div>    
+          <a href="#line" type="button" class="col col-sm-4 btn btn-success m-1 "><i class="fab fa-line"></i> LINEで問い合わせる</a>        
+          <a href="#mail" type="button" class="col col-sm-4 btn btn-primary m-1 "><i class="far fa-envelope"></i> メールで問い合わせる</a>
+      </div>
+    </section>  
+
+
+
+    
+
+
+
+  <!--基本情報-->  
+  <section id=infomation class="container">
+    <div class="my-3">
+      <h1><span class="marker">基本情報</span></h1>
+    </div>
+    <div class="row shadow p-1">
+        <div class="p-1 col-sm-4">
+          <img class="img-fluid" src="http://placehold.jp/320x240.png" alt="テスト画像">
+        </div>
+          
       <div class="col-sm-8 text-left mt-2">
-            <span>icon代表</span>
-            <div class="">山田 太郎</div>
-            <br>
-            <span>iconメッセージ</span>
-            <p>代表のメッセージを実施する。オーガニックの野菜や調味料を厳選し、お手頃価格のメニューを開発・提供しています。当店のLINEに友だち登録いただくと、人気のオーガニック・スムージーも１杯無料となるキャンペーンも開催しているので気軽にご来店ください。</p>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>企業名</th>
+              <td scope="col">Inspiring.inc</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">住所</th>
+              <td>〒103-0001<br>神奈川県横浜市南区中村町1-1-1</td>
+            </tr>
+          </tbody>
+          <thead>
+            <tr>
+              <th>アクセス</th>
+              <td scope="col">横浜駅より徒歩15分</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">電話番号</th>
+              <td>090-0000-0000</td>
+            </tr>
+          </tbody>
+          <thead>
+            <tr>
+              <th>定休日</th>
+              <td scope="col">土曜日、日曜日</td>
+            </tr>
+          </thead>         
+          <tbody>
+            <tr>
+              <th scope="row">受付時間</th>
+              <td>9:30 - 18:30<br>※9:30 - 12:00 / 13:00 - 18:30 </td>
+            </tr>
+          </tbody>          
+          <thead>
+            <tr>
+              <th>駐車場</th>
+              <td scope="col">1台あり</td>
+            </tr>
+          </thead>          
+          <tbody>
+            <tr>
+              <th scope="row">支払方法</th>
+              <td>現金 / LINE Pay / PayPay</td>
+            </tr>
+          </tbody>
+          <thead>
+            <tr>
+              <th class="align-top">関連サイト</th>
+              <td scope="col">
+              <a href="#">Facebookページ</a>
+              <br>
+              <a href="#">Instagram</a>
+              <br>
+              <a href="#">Twitter</a> </td>
+            </tr>
+          </thead>          
+          <tbody>
+            <tr>
+              <th scope="row">その他</th>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
 
-            <span>icon経歴</span>
-            <p>代表の経歴を掲載する。代表の経歴を掲載する。代表の経歴を掲載する。代表の経歴を掲載する。代表の経歴を掲載する。代表の経歴を掲載する。</p>
-
-            <span>icon資格</span>
-            <p>代表の経歴を資格する。代表の経歴を資格する。代表の経歴を資格する。代表の経歴を資格する。代表の経歴を資格する。代表の経歴を資格する。</p>
-
-          </div>
+        <div id="map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13002.910733505012!2d139.6273024380156!3d35.436775266857325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185ceeb71a5fd1%3A0x9c3137b8c62370c3!2z44CSMjMyLTAwMzMg56We5aWI5bed55yM5qiq5rWc5biC5Y2X5Yy65Lit5p2R55S677yR5LiB55uu77yR4oiS77yR!5e0!3m2!1sja!2sjp!4v1587998230798!5m2!1sja!2sjp" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         </div>
+
+        <div id="calendar">
+          <iframe src="https://calendar.google.com/calendar/embed?src=tokuyamamitsushi.com_g4653v7ei5sa07fgj1euencaks%40group.calendar.google.com&ctz=Asia%2FTokyo" style="border: 0" width="100%" height="350" frameborder="0" scrolling="no"></iframe>
+        </div>
+      </div>
     </div>
   </section>  
 
 
-
-  <section id=contact class="mt-10 p-2 container">
-    <div class="low m-5 ">
-      <div>
-        <h1>お問い合わせ</h1>
-        <div class="text-danger">        
-            <h1 class="d-block d-sm-none"><span>icon_tel</span>
-            <a class="text-danger col-sm-disabled" href="tel:090-0000-0000">090-0000-0000</a>
-            </h1>
-            <h1 class="col-sm-disabled d-none d-sm-block"><span>icon_tel：090-0000-0000</span>
-            </h1>
-        </div>
-          <p>
-            <span>icon_time</span>受付時間 9:30 - 18:30
-          </p>
-      </div>    
-        <a href="#line" type="button" class="col col-sm-4 btn btn-success m-1 ">LINEで問い合わせる</a>        
-        <a href="#mail" type="button" class="col col-sm-4 btn btn-primary m-1 ">メールで問い合わせる</a>
+  <!--メール問い合わせ-->  
+  <section id=mail class="container bg-light">
+    <div class="mt-3">
+      <h1><span class="marker">お問い合わせ</span></h1>
     </div>
-  </section>  
+    <div class="text-left p-1">
+      <h2><span class="marker">メールでのお問い合わせ</span></h2>  
+      <p>お問い合わせ内容を確認後、折り返しご連絡いたします。お急ぎの場合は、電話にてお問い合わせください。</p>
 
-
-
-
-<!--基本情報-->  
-<section id=staff class="container">
-　　  <div class="mt-3">
-            <h1><span class="marker">基本情報</span></h1>
-      </div>
-
-
-<div id=infomation class="shadow p-2">
-    <div class="row clearfix media">
-        <div class="mx-auto  p-3 media-sm-left col-sm-4">
-          <img class="img-fluid" src="http://placehold.jp/320x240.png" alt="テスト画像">
-        </div>
-        
-    <div class="col-sm-8 text-left mt-2">
-        
-<table class="table table-striped">
-
-  <thead>
-    <tr>
-      <th>企業名</th>
-      <td scope="col">Inspiring.inc</td>
-    </tr>
-  </thead>
-  
-  <tbody>
-    <tr>
-      <th scope="row">住所</th>
-      <td>〒103-0001<br>神奈川県横浜市南区中村町1-1-1</td>
-    </tr>
-  </tbody>
-  
-  <thead>
-    <tr>
-      <th>アクセス</th>
-      <td scope="col">横浜駅より徒歩15分</td>
-    </tr>
-  </thead>
-  
-  <tbody>
-    <tr>
-      <th scope="row">電話番号</th>
-      <td>090-0000-0000</td>
-    </tr>
-  </tbody>
-
-  <thead>
-    <tr>
-      <th>定休日</th>
-      <td scope="col">土曜日、日曜日</td>
-    </tr>
-  </thead>
-  
-  <tbody>
-    <tr>
-      <th scope="row">受付時間</th>
-      <td>9:30 - 18:30<br>※9:30 - 12:00 / 13:00 - 18:30 </td>
-    </tr>
-  </tbody>
-  
-  <thead>
-    <tr>
-      <th>駐車場</th>
-      <td scope="col">1台あり</td>
-    </tr>
-  </thead>
-  
-  <tbody>
-    <tr>
-      <th scope="row">支払方法</th>
-      <td>現金 / LINE Pay / PayPay</td>
-    </tr>
-  </tbody>
-
-
-  <thead>
-    <tr>
-      <th>関連サイト</th>
-      <td scope="col">
-      <a href="#">Facebookページ</a>
-      <br>
-      <a href="#">Instagram</a>
-      <br>
-      <a href="#">Twitter</a> </td>
-    </tr>
-  </thead>
-  
-  <tbody>
-    <tr>
-      <th scope="row">その他</th>
-      <td>除菌済み</td>
-    </tr>
-  </tbody>
-</table>
-
-<div id="map">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13002.910733505012!2d139.6273024380156!3d35.436775266857325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185ceeb71a5fd1%3A0x9c3137b8c62370c3!2z44CSMjMyLTAwMzMg56We5aWI5bed55yM5qiq5rWc5biC5Y2X5Yy65Lit5p2R55S677yR5LiB55uu77yR4oiS77yR!5e0!3m2!1sja!2sjp!4v1587998230798!5m2!1sja!2sjp" width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-</div>
-
-<div id="calendar">
-<iframe src="https://calendar.google.com/calendar/embed?src=tokuyamamitsushi.com_g4653v7ei5sa07fgj1euencaks%40group.calendar.google.com&ctz=Asia%2FTokyo" style="border: 0" width="100%" height="350" frameborder="0" scrolling="no"></iframe>
-</div>
-
-</div>
-</div>
-</section>  
-
-
-
-<!--メール問い合わせ-->  
-<section id=mail class="container">
-　　  <div class="mt-3">
-            <h1><span class="marker">お問い合わせ</span></h1>
-      </div>
-
-
-  <div class="bg-light text-left p-3">
-    <h2><span class="marker">メールでのお問い合わせ</span></h2>
-    
-    <p>お問い合わせ内容を確認後、折り返しご連絡いたします。お急ぎの場合は、電話にてお問い合わせください。</p>
-
-
-
-
-<div class="content_form">
-    <form action="https://myasptrial.net/p/r/*******" enctype="multipart/form-data" id="UserItemForm" class="myForm" method="post" accept-charset="utf-8">
+      <div class="content_form">
+        <form action="https://myasptrial.net/p/r/*******" enctype="multipart/form-data" id="UserItemForm" class="myForm" method="post" accept-charset="utf-8">
         <input type="hidden" name="_method" value="POST"/>
 
-
-     <!-- 店舗名 -->
-          <div class="form-group">
-               <span class="badge badge-danger mr-1">必須</span><label for="Userfree3">お名前</label>
-               <input name="data[User][free3]" id="Userfree3" value="" class="form-control mb-2" type="text" required="">
+        <!-- 店舗名 -->
+        <div class="form-group">
+          <span class="badge badge-danger mr-1">必須</span><label for="Userfree3">お名前</label>
+          <input name="data[User][free3]" id="Userfree3" value="" class="form-control mb-2" type="text" required="" placeholder="例）山田 太郎">
         </div>
 
-        <!-- 入力者氏名 -->
-         <div class="form-group">
-             <span class="badge badge-danger mr-1">必須</span><label for="Userfree4">電話番号</label>
-             <input name="data[User][free4]" id="Userfree4" value="" class="form-control mb-2" type="text" required="">
-         </div>
+        <!-- 入力者氏名 --> 
+        <div class="form-group">
+          <span class="badge badge-danger mr-1">必須</span><label for="Userfree4">電話番号</label>
+          <input name="data[User][free4]" id="Userfree4" value="" class="form-control mb-2" type="text" required="" placeholder="例）09012345678">
+        </div>
 
         <!-- メールアドレス -->
-         <div class="form-group">
-             <span class="badge badge-danger mr-1">必須</span><label for="Usermail">メールアドレス</label>
-             <input name="data[User][mail]" id="Usermail" value="" class="form-control mb-2" type="text" required="">
-            </div>
+        <div class="form-group">
+          <span class="badge badge-danger mr-1">必須</span><label for="Usermail">メールアドレス</label>
+          <input name="data[User][mail]" id="Usermail" value="" class="form-control mb-2" type="text" required=""placeholder="例）sample@gmail.com">
+        </div>
 
         <!-- 問い合わせ内容 -->
         <div class="form-group">
-            <span class="badge badge-danger mr-1">必須</span><label>お問い合わせ内容</label>
-            <textarea class="form-control" name="data[User][free49]" id="Userfree49" rows="5"></textarea>
+          <span class="badge badge-danger mr-1">必須</span><label>お問い合わせ内容</label>
+          <textarea class="form-control" name="data[User][free49]" id="Userfree49" rows="5"></textarea>
         </div>
 
         <!-- 確認ボタン -->
-          <input id="idstamp" name="idstamp" type="hidden">
-          <button type="submit" id="saveForm" name="saveForm" class="btn btn-primary btn-lg btn-block">送信する</button>
+        <input id="idstamp" name="idstamp" type="hidden">
+        <button type="submit" id="saveForm" name="saveForm" class="btn btn-primary btn-lg btn-block">送信する</button>
         <small class="text-secondary" >※「送信する」をクリックすると、確認メールが届きます。</small>
-  </div>
-</section>
-  
-  
-  
-  
-  <section id=contact class="shadow  p-2 container">
-    <div class="low text-left">
-      <div>
-        <h1><span class="marker">電話でのお問い合わせ</span></h1>
-        <div class="text-danger">        
-            <h1 class="d-block d-sm-none"><span>icon_tel</span>
-            <a class="m-3 text-danger col-sm-disabled" href="tel:090-0000-0000">090-0000-0000</a>
-            </h1>
-            <h1 class="m-3 text-danger  col-sm-disabled d-none d-sm-block"><span>icon_tel：090-0000-0000</span>
-            </h1>
-        </div>
-          <p>
-            <span>icon_time</span>定休日：日曜日<br>
-            <span>icon_time</span>受付時間 9:30 - 18:30<br>
-            <small>※9:30 - 12:00 / 13:00 - 18:30</small>
-          </p>
-      </div>    
+      </div>
     </div>
+  </section>
+  
+  
+  
+  <section id=contact class="shadow mt-3 container">
+    <div class="low text-left p-3">
+      <h1><span class="marker">電話でのお問い合わせ</span></h1>
+      <div class="text-danger">        
+        <h1 class="d-block d-sm-none"><i class="fas fa-phone-alt"></i>
+        <a class="m-3 text-danger col-sm-disabled" href="tel:090-0000-0000"> 090-0000-0000</a>
+        </h1>
+        <h1 class="m-3 text-danger  col-sm-disabled d-none d-sm-block"><i class="fas fa-phone-alt"> 090-0000-0000</i>
+        </h1>
+      </div>
+        <p>
+          <i class="far fa-calendar-times"> 定休日：日曜日</i><br>
+          <i class="far fa-clock"> 受付時間 9:30 - 18:30</i><br>
+          <small>※9:30 - 12:00 / 13:00 - 18:30</small>
+        </p>
+    </div>   
   </section>  
 
 
 
-  <section id=line class="shadow  p-2 container">
-    <div class="low text-left">
-      
-        <h1><span class="marker">LINEでのお問い合わせ</span></h1>
 
-
-          <p>
-            LINEの友だちに追加し、<br>
-            メッセージを送信してください。<br>
-          </p>
-
-
+  <section id=line class="shadow  my-3 container">
+    <div class="low text-left p-3">
+      <h1><span class="marker">LINEでのお問い合わせ</span></h1>
+        <p>
+        LINEの友だちに追加し、<br>
+        メッセージを送信してください。<br>
+        </p>
       <div class="">
-           <a href="#line" type="button" class="d-sm-none col col-sm-4 btn btn-success m-1 ">友だち追加</a>        
+        <a href="#line" type="button" class="d-sm-none col col-sm-4 btn btn-success m-1 "><i class="fab fa-line"></i> 友だち追加</a>        
 
-      <div class="m-2 col-sm-disabled d-none d-sm-block">
-
-        <div class="row p-4">
-          <div class="col">
-          <p>QRコードより<span class="text-danger">「友だち追加」</span>してください。<br>
-          LINE公式アカウントのID ： @tokuyama-m</p>
-        </div>
-
-
-        <div class="p-1 col text-right">
-        <img class="img-fluid" src="http://placehold.jp/150x150.png" alt="テスト画像">
-        </div>
-
-      </div>
-      </div>
-      
+        <div class="m-2 col-sm-disabled d-none d-sm-block">
+          <div class="row p-4">
+            <div class="col">
+              <p>QRコードより<span class="text-danger">「友だち追加」</span>してください。<br>
+              LINE公式アカウントのID ： @tokuyama-m</p>
+            </div>
+            <div class="p-1 col text-right">
+            <img class="img-fluid" src="http://placehold.jp/150x150.png" alt="テスト画像">
+            </div>
+          </div>
+        </div>  
+      </div>     
     </div>
+  </section> 
+
+    <!-- もくじ情報 -->
+    <section id=contents class="container mb-4">
+      <div class="row col-sm-4 p-2  shadow mx-auto">    
+        <h2>このページの主な内容</h2>
+        <div class="list-group-flush p-2 text-left">
+          <a class="list-group-item text-secondary btn text-left" href="#menu"><i class="far fa-list-alt"></i> メニュー</a>
+          <a class="list-group-item text-secondary btn text-left" href="#reason"><i class="fas fa-medal"></i> 特徴（選ばれる理由）</a>
+          <a class="list-group-item text-secondary btn text-left" href="#review"><i class="far fa-comment-dots"></i> クチコミ</a>
+          <a class="list-group-item text-secondary btn text-left" href="#staff"><i class="far fa-user"></i> スタッフ紹介</a>
+          <a class="list-group-item text-secondary btn text-left" href="#infomation"><i class="far fa-building"></i> 基本情報</a>
+          <a class="list-group-item text-secondary btn text-left" href="#faq"><i class="far fa-question-circle"></i> よくある質問</a>
+          <a class="list-group-item text-secondary btn text-left" href="#mail"><i class="far fa-envelope"></i> お問い合わせ</a>
+        </div>
+      </div>
+    </section>    
 
 
-     
-</div>
-  </section>  
-</section>
-
-
-
-
-
-
-  </main>
-
-
+</main>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
